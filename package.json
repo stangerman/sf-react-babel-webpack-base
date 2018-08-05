@@ -1,0 +1,42 @@
+{
+  "name": "sf-react-base-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@salesforce-ux/design-system": "^2.6.2",
+    "@salesforce/babel-preset-design-system-react": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "design-system-react": "git+ssh://git@github.com:salesforce/design-system-react.git#v[VERSION]",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^4.0.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@salesforce/design-system-react": "^0.8.20",
+    "css-loader": "^1.0.0",
+    "postinstall-build": "^5.0.1",
+    "url-loader": "^1.0.1"
+  }
+}
